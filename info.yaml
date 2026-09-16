@@ -10,7 +10,7 @@ project:
   # How many tiles your design occupies?
   tiles: "1x1"
 
-  # Your top module name
+  # Your top module name must start with "tt_um_".
   top_module:  "tt_um_example"
 
   # List your project's source files here.
