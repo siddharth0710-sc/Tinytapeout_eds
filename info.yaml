@@ -1,9 +1,9 @@
 # Tiny Tapeout project information
 project:
-  title:        ""      tinytapeouteds
-  author:       ""      Siddharth A S
-  discord:      ""      -
-  description:  ""      tinytapeout
+  title:       "tinytapeouteds"
+  author:       "Siddharth A S"
+  discord:      "" 
+  description:  "tinytapeout"
   language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:    50000000      # Clock frequency in Hz (or 0 if not applicable)
 
@@ -22,35 +22,35 @@ project:
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
-  # Inputs
-  ui[0]: I[0]
-  ui[1]: I[1]
-  ui[2]: I[2]
-  ui[3]: I[3]
-  ui[4]: I[4]
-  ui[5]: I[5]
-  ui[6]: I[6]
-  ui[7]: I[7]
+# Inputs
+ui[0]: "I[0]"
+ui[1]: "I[1]"
+ui[2]: "I[2]"
+ui[3]: "I[3]"
+ui[4]: "I[4]"
+ui[5]: "I[5]"
+ui[6]: "I[6]"
+ui[7]: "I[7]"
 
-  # Outputs
-  uo[0]: O[0]
-  uo[1]: O[1]
-  uo[2]: O[2]
-  uo[3]: O[3]
-  uo[4]: O[4]
-  uo[5]: O[5]
-  uo[6]: O[6]
-  uo[7]: O[7]
+# Outputs
+uo[0]: "O[0]"
+uo[1]: "O[1]"
+uo[2]: "O[2]"
+uo[3]: "O[3]"
+uo[4]: "O[4]"
+uo[5]: "O[5]"
+uo[6]: "O[6]"
+uo[7]: "O[7]"
 
-  # Bidirectional pins
-  uio[0]: IO[0]
-  uio[1]: IO[1]
-  uio[2]: IO[2]
-  uio[3]: IO[3]
-  uio[4]: IO[4]
-  uio[5]: IO[5]
-  uio[6]: IO[6]
-  uio[7]: IO[7]
+# Bidirectional pins
+uio[0]: "IO[0]"
+uio[1]: "IO[1]"
+uio[2]: "IO[2]"
+uio[3]: "IO[3]"
+uio[4]: "IO[4]"
+uio[5]: "IO[5]"
+uio[6]: "IO[6]"
+uio[7]: "IO[7]"
 
-# Do not change!
+# Do not change
 yaml_version: 6
